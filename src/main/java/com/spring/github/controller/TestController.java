@@ -12,7 +12,7 @@ public class TestController
 	@RequestMapping(value = {"/", ""}, method = RequestMethod.GET)
 	public ModelAndView indexPage()
 	{		
-		
+		System.out.println("Test");
 		return new ModelAndView("index");
 	}	
 }
